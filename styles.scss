@@ -1,0 +1,106 @@
+@use "sass:math";
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$very-dark-blue-main-bg: hsl(217, 54%, 11%);
+$very-dark-blue-card-bg: hsl(216, 50%, 16%);
+$very-dark-blue-line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+$font-paragraph: 18px;
+$outfit: "Outfit", sans-serif;
+
+%lined-up {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+* {
+	font-family: $outfit;
+}
+html {
+	height: 100%;
+}
+body {
+	background-color: $very-dark-blue-main-bg;
+	height: 100%;
+}
+.l-card {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.c-card {
+	background-color: $very-dark-blue-card-bg;
+	padding: 20px;
+	border-radius: 12px;
+	width: math.div(316px, 1440px) * 100%;
+}
+.c-card__image {
+	width: 100%;
+	border-radius: 8px;
+}
+.c-card__name {
+	color: $white;
+	font-size: $font-paragraph;
+	font-weight: 600;
+}
+.c-card__description {
+	color: $soft-blue;
+	text-wrap: wrap;
+}
+.c-card__data {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.c-card__price {
+	@extend %lined-up;
+}
+.c-card__price__value {
+	color: $cyan;
+	font-weight: 600;
+	margin: 0;
+}
+.c-card__expiry {
+	@extend %lined-up;
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+.c-card__expiry__time {
+	color: $soft-blue;
+	margin: 0;
+}
+.c-card__creator {
+	@extend %lined-up;
+	border-top: 1px solid $very-dark-blue-line;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.c-card__creator__image {
+	width: 30px;
+	height: 30px;
+	border: 1px solid $white;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.c-card__creator__text {
+	color: $soft-blue;
+}
+.c-card__creator__name {
+	color: $white;
+	margin: 0;
+}
+
+.attribution {
+	font-size: 14px;
+	text-align: center;
+	color: $soft-blue;
+	padding-bottom: 20px;
+}
+.attribution a {
+	color: $cyan;
+}

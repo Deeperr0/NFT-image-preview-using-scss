@@ -1,0 +1,109 @@
+.c-card__creator, .c-card__expiry, .c-card__price {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100%;
+}
+
+.l-card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 12px;
+  width: 21.9444444444%;
+}
+
+.c-card__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.c-card__name {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.c-card__description {
+  color: hsl(215, 51%, 70%);
+  text-wrap: wrap;
+}
+
+.c-card__data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.c-card__price__value {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin: 0;
+}
+
+.c-card__expiry {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.c-card__expiry__time {
+  color: hsl(215, 51%, 70%);
+  margin: 0;
+}
+
+.c-card__creator {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.c-card__creator__image {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.c-card__creator__text {
+  color: hsl(215, 51%, 70%);
+}
+
+.c-card__creator__name {
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 20px;
+}
+
+.attribution a {
+  color: hsl(178, 100%, 50%);
+}
+
+/*# sourceMappingURL=styles.css.map */
