@@ -38,11 +38,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- SCSS
+- SASS
 
 ### What I learned
 
-How to use SCSS preprocessor
+How to use SASS preprocessor
 
 ## Author
 
