@@ -25,11 +25,17 @@ body {
   align-items: center;
 }
 
+.l-card__shadow {
+  box-shadow: 0 0 20px 40px #0d1629;
+  width: 21.9444444444%;
+  border-radius: 12px;
+}
+
 .c-card {
   background-color: hsl(216, 50%, 16%);
   padding: 20px;
   border-radius: 12px;
-  width: 21.9444444444%;
+  box-shadow: 0 0 2px 20px #0d1629;
 }
 
 .c-card__image {

@@ -5,6 +5,8 @@ $very-dark-blue-main-bg: hsl(217, 54%, 11%);
 $very-dark-blue-card-bg: hsl(216, 50%, 16%);
 $very-dark-blue-line: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
+$shadow-one: #0d1629;
+$shadow-two: #0d192d;
 $font-paragraph: 18px;
 $outfit: "Outfit", sans-serif;
 
@@ -31,11 +33,16 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.l-card__shadow {
+	box-shadow: 0 0 20px 40px $shadow-one;
+	width: math.div(316px, 1440px) * 100%;
+	border-radius: 12px;
+}
 .c-card {
 	background-color: $very-dark-blue-card-bg;
 	padding: 20px;
 	border-radius: 12px;
-	width: math.div(316px, 1440px) * 100%;
+	box-shadow: 0 0 2px 20px $shadow-one;
 }
 .c-card__image {
 	width: 100%;
