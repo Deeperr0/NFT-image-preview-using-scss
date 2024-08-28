@@ -28,9 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-image-preview-using-scss-public-F9ZhbcFDy7)
+- Live Site URL: [Live website](https://nft-image-preview.netlify.app)
 ## My process
 
 ### Built with
@@ -47,6 +46,5 @@ How to use SCSS preprocessor
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Deeperr0](https://github.com/Deeperr0)
+- Frontend Mentor - [@Deeperr0](https://www.frontendmentor.io/profile/Deeperr0)
