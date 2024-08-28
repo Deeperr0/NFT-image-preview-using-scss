@@ -111,3 +111,15 @@ body {
 .attribution a {
 	color: $cyan;
 }
+
+@media screen and (width <= 768px) {
+	.l-card__shadow {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.l-card__shadow {
+		width: 80%;
+	}
+}

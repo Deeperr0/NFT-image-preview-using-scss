@@ -112,4 +112,15 @@ body {
   color: hsl(178, 100%, 50%);
 }
 
+@media screen and (width <= 768px) {
+  .l-card__shadow {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .l-card__shadow {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
